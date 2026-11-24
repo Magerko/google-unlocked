@@ -1,0 +1,232 @@
+{
+  "dmca": {
+    "id": 1,
+    "title": "Re: Unknown",
+    "body": null,
+    "works": [
+      {
+        "description": "Film A",
+        "copyrighted_urls": [
+          {
+            "url": "http://example.org/orig"
+          }
+        ],
+        "infringing_urls": [
+          {
+            "url": "http://kinozal.tv/details.php?id=1"
+          },
+          {
+            "url": "https://kinozal.tv/details.php?id=2"
+          },
+          {
+            "url": "https://kinozal.tv/details.php?id=3"
+          },
+          {
+            "url": "https://kinozal.tv/details.php?id=3#dup"
+          },
+          {
+            "url": "https://rezka-ua.pub/x"
+          },
+          {
+            "url": "https://1337x.unblockninja.com/t/1"
+          },
+          {
+            "url": "javascript:alert(1)"
+          },
+          {
+            "url": "ftp://files.example.com/a"
+          },
+          {
+            "url": "No URL submitted"
+          }
+        ]
+      },
+      {
+        "description": "Many",
+        "copyrighted_urls": [],
+        "infringing_urls": [
+          {
+            "url": "https://big.example.net/p/0"
+          },
+          {
+            "url": "https://big.example.net/p/1"
+          },
+          {
+            "url": "https://big.example.net/p/2"
+          },
+          {
+            "url": "https://big.example.net/p/3"
+          },
+          {
+            "url": "https://big.example.net/p/4"
+          },
+          {
+            "url": "https://big.example.net/p/5"
+          },
+          {
+            "url": "https://big.example.net/p/6"
+          },
+          {
+            "url": "https://big.example.net/p/7"
+          },
+          {
+            "url": "https://big.example.net/p/8"
+          },
+          {
+            "url": "https://big.example.net/p/9"
+          },
+          {
+            "url": "https://big.example.net/p/10"
+          },
+          {
+            "url": "https://big.example.net/p/11"
+          },
+          {
+            "url": "https://big.example.net/p/12"
+          },
+          {
+            "url": "https://big.example.net/p/13"
+          },
+          {
+            "url": "https://big.example.net/p/14"
+          },
+          {
+            "url": "https://big.example.net/p/15"
+          },
+          {
+            "url": "https://big.example.net/p/16"
+          },
+          {
+            "url": "https://big.example.net/p/17"
+          },
+          {
+            "url": "https://big.example.net/p/18"
+          },
+          {
+            "url": "https://big.example.net/p/19"
+          },
+          {
+            "url": "https://big.example.net/p/20"
+          },
+          {
+            "url": "https://big.example.net/p/21"
+          },
+          {
+            "url": "https://big.example.net/p/22"
+          },
+          {
+            "url": "https://big.example.net/p/23"
+          },
+          {
+            "url": "https://big.example.net/p/24"
+          },
+          {
+            "url": "https://big.example.net/p/25"
+          },
+          {
+            "url": "https://big.example.net/p/26"
+          },
+          {
+            "url": "https://big.example.net/p/27"
+          },
+          {
+            "url": "https://big.example.net/p/28"
+          },
+          {
+            "url": "https://big.example.net/p/29"
+          },
+          {
+            "url": "https://big.example.net/p/30"
+          },
+          {
+            "url": "https://big.example.net/p/31"
+          },
+          {
+            "url": "https://big.example.net/p/32"
+          },
+          {
+            "url": "https://big.example.net/p/33"
+          },
+          {
+            "url": "https://big.example.net/p/34"
+          },
+          {
+            "url": "https://big.example.net/p/35"
+          },
+          {
+            "url": "https://big.example.net/p/36"
+          },
+          {
+            "url": "https://big.example.net/p/37"
+          },
+          {
+            "url": "https://big.example.net/p/38"
+          },
+          {
+            "url": "https://big.example.net/p/39"
+          },
+          {
+            "url": "https://big.example.net/p/40"
+          },
+          {
+            "url": "https://big.example.net/p/41"
+          },
+          {
+            "url": "https://big.example.net/p/42"
+          },
+          {
+            "url": "https://big.example.net/p/43"
+          },
+          {
+            "url": "https://big.example.net/p/44"
+          },
+          {
+            "url": "https://big.example.net/p/45"
+          },
+          {
+            "url": "https://big.example.net/p/46"
+          },
+          {
+            "url": "https://big.example.net/p/47"
+          },
+          {
+            "url": "https://big.example.net/p/48"
+          },
+          {
+            "url": "https://big.example.net/p/49"
+          },
+          {
+            "url": "https://big.example.net/p/50"
+          },
+          {
+            "url": "https://big.example.net/p/51"
+          },
+          {
+            "url": "https://big.example.net/p/52"
+          },
+          {
+            "url": "https://big.example.net/p/53"
+          },
+          {
+            "url": "https://big.example.net/p/54"
+          },
+          {
+            "url": "https://big.example.net/p/55"
+          },
+          {
+            "url": "https://big.example.net/p/56"
+          },
+          {
+            "url": "https://big.example.net/p/57"
+          },
+          {
+            "url": "https://big.example.net/p/58"
+          },
+          {
+            "url": "https://big.example.net/p/59"
+          }
+        ]
+      }
+    ]
+  }
+}

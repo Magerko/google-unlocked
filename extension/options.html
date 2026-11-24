@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Google Unlocked</title>
+<style>
+  body { font: 14px/1.5 system-ui, sans-serif; max-width: 520px; margin: 24px; }
+  input { width: 100%; box-sizing: border-box; padding: 6px; margin: 6px 0; }
+  button { padding: 6px 14px; }
+  #status { margin-left: 10px; opacity: .7; }
+</style>
+</head>
+<body>
+<h2>Google Unlocked</h2>
+<p id="hint"></p>
+<label id="label" for="token"></label>
+<input id="token" type="password" autocomplete="off" spellcheck="false">
+<button id="save" type="button"></button><span id="status"></span>
+<p><a id="link" href="https://lumendatabase.org/pages/researchers#key" target="_blank" rel="noopener noreferrer"></a></p>
+<hr>
+<label><input id="auto-captcha" type="checkbox" style="width:auto"> Автоматически решать reCAPTCHA Lumen локальными моделями</label>
+<p>Один раз установите локальный обработчик командой из README. ID этого расширения: <code id="extension-id"></code></p>
+<button id="test-models" type="button">Проверить модели</button>
+<p id="model-status" role="status"></p>
+<script src="options.js"></script>
+</body>
+</html>

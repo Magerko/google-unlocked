@@ -1,0 +1,14 @@
+node_modules/
+dist/
+native/.venv/
+__pycache__/
+native/launcher.exe
+native/*-host.json
+*.py[cod]
+*.log
+.env
+.env.*
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

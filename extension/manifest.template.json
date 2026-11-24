@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "Google Unlocked",
+  "version": "2.0.0",
+  "description": "Shows domains removed from Google results by DMCA complaints, using the Lumen database.",
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png",
+    "512": "512.png"
+  },
+  "permissions": [
+    "storage",
+    "scripting",
+    "nativeMessaging"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "host_permissions": [
+    "https://lumendatabase.org/*",
+    "https://www.google.com/recaptcha/*",
+    "https://www.recaptcha.net/recaptcha/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": "__MATCHES__",
+      "js": [
+        "core.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://lumendatabase.org/captcha_gateway*",
+        "https://www.google.com/recaptcha/*",
+        "https://www.recaptcha.net/recaptcha/*"
+      ],
+      "js": [
+        "captcha.js"
+      ],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "google-unlocked@local",
+      "strict_min_version": "128.0"
+    }
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjfhfVvxrG8MWTmU2JgqCjZBKnm0Wu+ZgqWbxDM//g3TNGqaoixt2KwVckr8KSAvERt7D2x+80Od6dzwxswOFmYeFvtSmyAzzRDPyscdw0NrwMSn52k0Z/kgnzh5aAhugcsyg0X/rzDjiIMe10mV6tXE4uPxGEpyZjZV+DVVtJdmPakQA9qg0/8HTS3Ri2a36EFoPztlQJ4utkxjFBNmtEnWNHm9sSckdo6km4FcR9pvVUNtvkmE9RPX3gGExXGB/FhhQ2qa0emvwngiXUUY0j/pLVZBiOwv/j3khfTP8EiLCvGDjaRAxamLtDrFbYuZo3BxNxU4OPuE9e69fqIZlRQIDAQAB"
+}
